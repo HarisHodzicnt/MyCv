@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+<!-- or -->
+
+<link rel="stylesheet"
+href="https://cdn.rawgit.com/michalsnik/aos/2.0.1/dist/aos.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional theme -->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="css.css"/>
+    <title>Haris Hodžić</title>
+  </head>
+  <body>
+ <div class="container-fluid nopadding animated zoomIn">
+  <div class="row nopadding">
+    <header class="nopadding">
+      <div class="col-sm-3 nopadding">
+        <div class="col-sm-12 nopadding">
+        <img style="height:300px; width:120%;" src="JA.jpg" alt="slika" class="img-responsive">
+      </div>
+    </div>
+      <div class="col-sm-9 nopadding">
+        <div class="row nopadding">
+        <div class="col-sm-9 bg-dark ">
+          <span id="fullName" style="margin-top:20px; display:inline-block;"><span class="letters">H</span><span class="letters">A</span><span class="letters">R</span><span class="letters">I</span><span class="letters">S</span><span> </span><span class="letters">H</span><span class="letters">O</span><span class="letters">D</span><span class="letters">Ž</span><span class="letters">I</span><span class="letters">Ć</span></span>
+        </div>
+        <div class="col-sm-3 bg-darks text-center">
+
+          <span onclick="print()" class="glyphicon glyphicon-download-alt top"></span>
+        </div>
+      </div>
+      <div class="row nopadding">
+        <div class="col-sm-9 bg-darks">
+     <h1>The Experienced with: <span class="change-text">HTML</span></h1>
+        </div>
+        <div class="col-sm-3 bg-dark text-center">
+        <span class="glyphicon glyphicon-play-circle top"></span>
+        </div>
+
+      </div>
+      <div class="row nopadding text-center">
+        <div class="col-sm-3  col-xs-6 light home">
+     <span class="glyphicon glyphicon-home top col-sm-12"></span>
+     <span  class="col-sm-12 nopadding"><b>HOME</b></span>
+   </div>
+   <div class="col-sm-3 light  col-xs-6 resume">
+           <span  class="glyphicon glyphicon-user top col-sm-12"></span>
+           <span  class="col-sm-12 nopadding"><b>RESUME</b></span>
+  </div>
+  <div class="col-sm-3 light  col-xs-6 letter">
+          <span class="glyphicon glyphicon-envelope top col-sm-12"></span>
+          <span  class="col-sm-12 nopadding"><b>M. LETTER</b></span>
+  </div>
+<div class="col-sm-3  col-xs-6 light contact">
+        <span class="glyphicon glyphicon-flag top col-sm-12"></span>
+        <span  class="col-sm-12 nopadding"><b>CONTACT</b></span>
+</div>
+    </div>
+      </div>
+    </div>
+    </header>
+  </div>
+  <div class="container-fluid nopadding item2">
+  <div class="row welcomePage">
+    <div class="col-sm-7 text-center personalInfo animated zoomInLeft">
+      <h1 class="">Welcome to my Website</h1>
+        <div class="col-sm-4 contentTop">
+          <span class="glyphicon glyphicon-time top p"></span>
+          <p>I finish every task at the time and very precisely.</p>
+        </div>
+        <div class="col-sm-4 contentTop">
+<span class="	glyphicon glyphicon-cog top p"></span>
+<p>The website is responsive. Layout is simple and clean.</p>
+        </div>
+        <div class="col-sm-4 contentTop">
+<span class="glyphicon glyphicon-list-alt top p"></span>
+<p>You can check my resume and motivational letter. You can also check out my video instead of reading it.</p>
+        </div>
+    </div>
+    <div class="col-sm-5  personalInfo animated zoomInRight">
+<h1 class="text-center">Personal informations</h1>
+      <table class="table table-hover">
+        <tr>
+          <td>Full Name: </td>
+          <td>Haris Hodžić</td>
+        </tr>
+        <tr>
+          <td>Birth Day: </td>
+          <td>17.10.1996</td>
+        </tr>
+        <tr>
+          <td>Adress: </td>
+          <td>Trg zlatnih ljiljana</td>
+        </tr>
+        <tr>
+          <td>Phone: </td>
+          <td>+387 62917943</td
+        </tr>
+        <tr>
+          <td >E-mail: </td>
+          <td >haris_hodzicnt@hotmail.com</td>
+        </tr>
+      </table>
+    </div>
+    </div>
+  </div>
+  <div class="container-fluid content2 nopadding item3">
+    <div class="row ">
+      <div class="item item--primary"
+     data-aos="fade-left"
+     data-aos-anchor="#trigger-right">
+      <div class="col-sm-3 education">
+        <h1 class="font-accident-two-normal uppercase title text-center">Education</h1>
+        <div class="experience">
+          <ul>
+            <li class="date">1.9.2011 - 15.5.2015</li>
+            <li class="company">HIGH SCHOOL GYMNASIUM (All access)</li>
+          </ul>
+           <div class="dividewhite2"></div>
+          <ul>
+            <li class="date">1.10.2015- TODAY</li>
+            <li class="company">Faculty of Electrical engineering (3th. year)</li>
+          </ul>
+          <a href="resume.html" class="btn btn-default btn-xs">Learn More</a>
+        </div>
+      </div>
+
+    </div>
+      <div class="item item--secondary"
+           data-aos="fade-right"
+           data-aos-anchor="#trigger-left">
+      <div class="col-sm-9 prof">
+        <div class="padding-50 flex-panel">
+                       <h3 class="font-accident-two-normal uppercase title text-center" id="trigger-left">My Professional skills</h3>
+                       <div class="dividewhite1"></div>
+                       <div class="row">
+
+                              <div class="col-md-4 col-sm-4 col-xs-12 nopadding skills">
+                                   <div class="progressbar text-center">
+                                      <div id="circle2" data-progressbar="circle" data-progressbar-color="#fff" data-progressbar-trailcolor="#fff" data-progressbar-to="{&quot;color&quot;: &quot;#ffd200&quot;, &quot;width&quot;: 4}" data-progressbar-from="{&quot;color&quot;: &quot;#3498db&quot;, &quot;width&quot;: 4}" data-progressbar-value="0.85">
+                                      <svg viewBox="0 0 100 100" style="display: block; margin-left: 25%; width: 50%;margin-top:20px;"><path d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96" stroke="#fff" stroke-width="1" fill-opacity="0"></path><path d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96" stroke="rgb(252,209,2)" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 301.635, 301.635; stroke-dashoffset: 45.2453;"></path></svg>
+                                      <div class="progressbar-text" style="position: absolute; left: 50%; top: 30%; padding: 0px; margin: 0px; margin-top:20px; transform: translate(-50%, -50%); color: rgb(255, 255, 255);">80%</div></div>
+
+                                <h4 class="font-accident-two-bold uppercase">HTML / CSS</h4>
+                                <p class="font-regular-normal">
+                                   Knowledge of html / css is on advanced level.
+                                   CSS framework Bootstrap on intermediate level.
+                                </p>
+                                <a href="resume.html" class="btn btn-default btn-xs">Learn More</a>
+                             </div>
+                             <div class="dividewhite1"></div>
+                          </div>
+
+                          <div class="col-md-4 col-sm-4 col-xs-12 nopadding skills">
+                             <div class="progressbar text-center">
+                                <div id="circle1" data-progressbar="circle" data-progressbar-color="#fff" data-progressbar-trailcolor="#fff" data-progressbar-to="{&quot;color&quot;: &quot;#51f2ec&quot;, &quot;width&quot;: 4}" data-progressbar-from="{&quot;color&quot;: &quot;#3498db&quot;, &quot;width&quot;: 4}" data-progressbar-value="0.5">
+                                <svg viewBox="0 0 100 100" style="display: block; width: 50%; margin-left: 25%; margin-top:20px;"><path d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96" stroke="#fff" stroke-width="1" fill-opacity="0"></path><path d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96" stroke="rgb(66,197,227)" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 301.635, 301.635; stroke-dashoffset: 150.818;"></path></svg>
+                                <div class="progressbar-text" style="position: absolute; left: 50%; top: 30%; padding: 0px; margin: 0px; margin-top:20px; transform: translate(-50%, -50%); color: rgb(255, 255, 255);">50%</div></div>
+                            <h4 class="font-accident-two-bold uppercase">Java Script</h4>
+                                <p class="font-regular-normal">
+                                    Knowledge of Javascript is on Intermediate level.
+                                    I am familiar with c++ and object oriented programming.
+                                </p>
+                                <a href="resume.html" class="btn btn-default btn-xs">Learn More</a>
+                             </div>
+                             <div class="dividewhite1"></div>
+                          </div>
+
+                          <div class="col-md-4 col-sm-4 col-xs-12 nopadding skills">
+                             <div class="progressbar text-center">
+                                <div id="circle3" data-progressbar="circle" data-progressbar-color="#fff" data-progressbar-trailcolor="#fff" data-progressbar-to="{&quot;color&quot;: &quot;#F09C88&quot;, &quot;width&quot;: 4}" data-progressbar-from="{&quot;color&quot;: &quot;#3498db&quot;, &quot;width&quot;: 4}" data-progressbar-value="0.23">
+                                <svg viewBox="0 0 100 100" style="display: block; margin-left: 25%; width: 50%; margin-top:20px;"><path d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96" stroke="#fff" stroke-width="1" fill-opacity="0"></path><path d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-1" stroke="rgb(239,155,136)" stroke-width="4" fill-opacity="0"
+                                  style="stroke-dasharray: 301.635, 301.635; stroke-dashoffset: 21.1145;"></path></svg>
+                                <div class="progressbar-text" style="position: absolute; left:50%; top: 30%; padding: 0px; margin: 0px; margin-top:20px; transform: translate(-50%, -50%); color: rgb(255, 255, 255);">50%</div></div>
+                                <h4 id="trigger-right" class="font-accident-two-bold uppercase">SQL</h4>
+                                <p class="font-regular-normal">
+                                    I know how to create tables, queries from one or more</br> database, how to make procedure and triggers.
+                                </p>
+                                <a href="resume.html" class="btn btn-default btn-xs" >Learn More</a>
+                             </div>
+                             <div class="dividewhite1"></div>
+                          </div>
+
+                       </div>
+                    </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="container-fluid nopadding item4">
+<div class="row footer">
+<div class="col-sm-3 addPadding mobcv">
+<h3 class="text-center">HARIS HODŽIĆ CV</H3>
+  <div class="dividewhite1"></div>
+  <div class="dividewhite1"></div>
+  <p class="text-center">This website has very simple and responsive design </br>+ for showing what can be done.</p>
+</br>
+</br>
+</br>
+</div>
+
+<div class="col-sm-3 text-center mobcv">
+  <h3 class="text-center">DOWNLOAD CV</h3>
+  <div class="row">
+    <div class="col-sm-6 cvDownload">
+ <button type="button" id="Bosnian" class="btn btn-primary" name="button"><i class="fa fa-arrow-down"></i> Bosnian</button>
+    </div>
+    <div class="col-sm-6 cvDownload">
+ <button type="button" id="Englisch" class="btn btn-primary" name="button"><i class="fa fa-arrow-down"></i> Englisch</button>
+    </div>
+<p style="margin-top:20px; display:inline-block;">The CV is in .pdf format. Use the Adobe Reader to open it.</p>
+  </div>
+
+</div>
+
+<div class="col-sm-3 text-center mobcv">
+            <h3 class="font-accident-two-bold uppercase text-center">NEWSLETTER</h3>
+            <div class="dividewhite1"></div>
+            <input class="newsletter-email text" type="email" required="" name="ne" placeholder="Your Email"/>
+            <a href="#!" class="btn btn-success btn-xs">SEND</a>
+            <div class="divider-dynamic"></div>
+         </div>
+
+
+         <div class="col-sm-3 text-center mobcv">
+                     <h3 class="font-accident-two-bold uppercase">FOLLOW ME</h3>
+                     <div class="follow">
+                        <ul class="list-inline social">
+                           <li><a target="_blank" href="https://www.facebook.com/haris.hodzic.3388" class="rst-icon-facebook"><i class="fa fa-facebook"></i></a></li>
+                           <li><a target="_blank" href="https://www.instagram.com/haris_hodzicnt/" class="rst-icon-instagram"><i class="fa fa-instagram"></i></a></li>                        </ul>
+                     </div>
+                     <div class="divider-dynamic"></div>
+                  </div>
+</div>
+<span style="border-top:3px solid white; position:fixed; left:0; bottom:0; color:inherit; text-align:center; width:100%; text-align:center;">&copy; 2018 Haris Hodžić</span>
+</div>
+
+<script type="text/javascript" src="https://cdn.rawgit.com/michalsnik/aos/2.0.1/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js.js"></script>
+  </body>
+</html>
